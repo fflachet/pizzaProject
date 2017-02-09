@@ -1,0 +1,9 @@
+{% extends "::base.html.twig" %}
+
+{% block fos_user_content %}
+    <section class="container">
+        <div class="col-md-offset-2 col-md-6 text-right">
+            {% include "@FOSUser/Registration/register_content.html.twig" %}
+        </div>
+    </section>
+{% endblock fos_user_content %}
